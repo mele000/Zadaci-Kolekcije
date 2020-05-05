@@ -16,7 +16,7 @@ public class Zadatak_5 {
 		Set<String> hS = new HashSet<>();
 		Scanner unos = new Scanner(System.in);
 
-		File file = new File("C:\\Users\\Win7\\eclipse-workspace\\Projek_Treads\\file.txt");
+		File file = new File("C:\\Users\\Win7\\eclipse-workspace\\Kolekcije_Zadaca_Bild\\file.txt");
 		Scanner input = new Scanner(file);
 
 		while (input.hasNext()) {

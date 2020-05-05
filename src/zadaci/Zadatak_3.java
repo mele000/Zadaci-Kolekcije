@@ -2,6 +2,7 @@ package zadaci;
 
 import java.math.MathContext;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.InputMismatchException;
@@ -13,7 +14,7 @@ public class Zadatak_3 {
 	public static void main(String[] args) {
 
 		Set<Integer> hS = new HashSet<>();
-		ArrayList<Integer> aL = new ArrayList<>();
+		Collection<Integer> aL = new ArrayList<>();
 
 		Scanner unos = new Scanner(System.in);
 

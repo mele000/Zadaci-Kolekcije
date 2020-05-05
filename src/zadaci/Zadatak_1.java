@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -14,7 +15,7 @@ public class Zadatak_1 implements Serializable {
 
 	public static void main(String[] args) throws ClassNotFoundException, FileNotFoundException {
 
-		ArrayList<String> aL = new ArrayList<>();
+		Collection<String> aL = new ArrayList<>();
 		Set<String> hS = new HashSet<>();
 		Scanner unos = new Scanner(System.in);
 
@@ -23,7 +24,7 @@ public class Zadatak_1 implements Serializable {
 			System.out.println("Unesite 1 ako ne zelite duplikate a 2 ako zelite");
 			int izbor = unos.nextInt();
 
-			File file = new File("C:\\Users\\Win7\\eclipse-workspace\\Projek_Treads\\file.txt");
+			File file = new File("C:\\Users\\Win7\\eclipse-workspace\\Kolekcije_Zadaca_Bild\\file.txt");
 			Scanner input = new Scanner(file);
 
 			if (izbor == 1) {
